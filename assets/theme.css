@@ -15,3 +15,151 @@ h2 {
     letter-spacing: 1.2px;
     color: #5c553a;
   }
+
+.product-image {
+    border-radius: 10px;
+    width: 355px;
+    height: 355px;
+  }
+  
+.best-sellers-badge {
+    font-family: "bebas-neue", sans-serif;
+    font-size: 10px;
+    letter-spacing: 2.4px !important;
+  }
+  
+.sale-badge {
+    font-family: "bebas-neue", sans-serif;
+    font-size: 10px;
+    letter-spacing: 2.4px !important;
+    right: 27px;
+    background: #5c7962;
+  }
+  
+.product-title {
+    font-family: "bebas-neue", sans-serif;
+    line-height: 21.6px !important;
+    letter-spacing: 1.2px !important;
+    color: #1c1d1d;
+  }
+  
+.reviews-amount {
+    line-height: 18px;
+    color: #707070;
+  }
+  
+.product-price {
+    color: #1c1d1d;
+  }
+  
+.products-wrapper {
+    margin-right: -128px;
+  }
+  
+.product-card:last-child {
+    margin-right: 128px;
+  }
+  
+.products-wrapper::-webkit-scrollbar {
+    display: none;
+  }
+  
+.scroll-bar {
+    background-color: #ddd6d7;
+  }
+  
+.thumb {
+    width: 480px;
+    background-color: #231f20;
+  }
+  
+.thumb:hover {
+    height: 6px;
+    cursor: grab;
+  }
+  
+.primary-button {
+    background-color: #1c1d1d;
+    line-height: 22.4px;
+    letter-spacing: 0.48px;
+  }
+  
+.product-image-first-show {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+  }
+  
+.product-image-first-hide {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+  
+.product-image-second-show {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+  }
+  
+.product-image-second-hide {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+  
+@media only screen and (max-width: 640px) {
+h2 {
+    font-size: 1.75rem !important;
+    line-height: 35.28px;
+}
+  
+.product-image {
+    width: 100%;
+    height: 159px;
+}
+  
+.products-wrapper {
+    margin-right: 0px;
+}
+  
+.product-card:last-child {
+    margin-right: 0px;
+}
+  
+.best-sellers-badge {
+    font-size: 8px;
+    letter-spacing: 0.64px !important;
+}
+  
+.sale-badge {
+    font-size: 8px;
+    letter-spacing: 0.64px !important;
+    right: 4px !important;
+}
+  
+.best-sellers-badge p {
+    line-height: 9.6px !important;
+}
+  
+.sale-badge p {
+    line-height: 9.6px !important;
+}
+  
+.reviews-amount {
+    font-size: 11px !important;
+}
+  
+.card-hide {
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.5s ease;
+}
+  
+.card-show {
+    opacity: 1;
+    pointer-events: auto;
+    transition: opacity 0.5s ease;
+}
+}
